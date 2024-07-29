@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .container {
+            text-align: center;
+        }
+        .btn-custom {
+            margin: 10px;
+            font-size: 16px;
+            padding: 10px 20px;
+        }
+        .additional-info {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .additional-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .additional-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/logocabeza.png" alt="TechVantaje Solutions" width="60px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="informe.html">ElectroTech</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/profile.php?id=61563590788340" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/techventaje/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://wa.me/qr/TTOUFCGMNQ6UA1" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 80px;">
+        <h1 class="display-4">Desea descargar el proyecto?</h1>
+        <p class="lead">Descargue el programa y su dependencia</p>
+        <div>
+            <a href="./aplicacion/mysetup.exe" class="btn btn-primary btn-custom" download>Sistema</a>
+            <a href="./aplicacion/jdk-17.0.11_windows-x64_bin.exe" class="btn btn-secondary btn-custom" download>Dependencia</a>
+        </div>
+        <div class="additional-info">
+            <p>Por favor acepte todo</p>
+            <p>Acceso a nuestro GitHub: <a href="https://github.com/JosuMirandaE" target="_blank">https://github.com/JosuMirandaE</a></p>
+            <p><strong>Advertencia:</strong> El programa no funcionará sin Java. Asegúrese de instalar Java 17.</p>
+            <p>El sitio oficial para descargar Java 17 es: <a href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html" target="_blank">https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html</a></p>
+            <p>La instalación y el uso del programa son sumamente intuitivos.</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

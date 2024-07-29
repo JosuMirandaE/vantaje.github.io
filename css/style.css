@@ -1,0 +1,206 @@
+/* Estilos Generales */
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Sección hero */
+.hero {
+    background: linear-gradient(to bottom, #f8f9fa 0%, #dcdcdc 100%);
+    min-height: 300px;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.hero-img {
+    width: 60%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+
+.hero-text h1, .hero-text h2, .hero-text h3 {
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem; /* Tamaño mayor para el título */
+    font-family: 'Nunito', sans-serif;
+    color: #333; /* Color más oscuro para contraste */
+}
+
+.hero-text h2 {
+    font-size: 2rem; /* Tamaño de subtítulo */
+    font-family: 'Gochi Hand', cursive;
+    color: #333;
+}
+
+.hero-text h3 {
+    font-size: 1.5rem; /* Tamaño de descripción */
+    font-family: 'Nunito', sans-serif;
+    color: #666; /* Color gris claro para descripción */
+}
+
+
+/* Servicios */
+.servicios {
+    background-color: #f8f9fa;
+}
+
+.servicios-titulo {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.servicios p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contacto */
+.contacto {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.contacto i {
+    color: #1dd84c;
+}
+
+.contacto-wsap {
+    margin-top: 2rem;
+}
+
+.contacto-wsap #qr {
+    width: 150px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+/* Nuevas Sección */
+.nueva-seccion {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.nueva-seccion h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.nueva-seccion p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Proyectos */
+.proyectos {
+    background-color: #ffffff;
+    padding: 2rem 0;
+}
+
+.proyecto {
+    position: relative;
+    overflow: hidden;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.iconos-contenedor {
+    margin-top: 1rem;
+}
+
+.iconos-contenedor a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.iconos-contenedor a:hover {
+    color: #007bff;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text h3 {
+        font-size: 1.25rem;
+    }
+
+    .servicios-titulo {
+        font-size: 1rem;
+    }
+
+    .contacto-wsap #qr {
+        width: 120px;
+    }
+}
